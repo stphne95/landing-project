@@ -10,7 +10,7 @@ body {
     flex-direction: column;
 }
 .part1 {
-    background-color: #1f2937;
+    background-color: #9B5094;
 }
 
 .header {
@@ -35,7 +35,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #aaabaf;
+    color: #CDF7F6;
 }
 
 .sec1 {
@@ -53,22 +53,22 @@ a {
 .sec1header{
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8;
+    color: #CDF7F6;
     margin: 0px;
 }
 
 p {
     font-size: 18px;
-    color: #aaabaf;
+    color: #CDF7F6;
     margin: 10px 0px;
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #8FB8DE;
     font-size: 16px;
     font-weight: bold;
     border-radius: 8px;
-    padding: 8px 35px;
+    padding: 8px 45px;
     border: none;
 
 }
@@ -87,7 +87,7 @@ button {
     text-align: center;
     font-size: 36px;
     font-family: 900;
-    color: #1f2937;
+    color: #9B5094;
     margin: 0;
     padding-bottom: 30px;
     background-color: white;
@@ -114,12 +114,12 @@ button {
 .image {
     height: 170px;
     width: 170px;
-    border: 4px solid #3882F6;
+    border: 4px solid #8FB8DE;
     border-radius: 15px;
 }
 
 .subtext {
-    color: #666769;
+    color: #9A94BC;
     padding-top: 10px;
 }
 
@@ -127,11 +127,11 @@ button {
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
-    color: #1f2937;
+    color: #9B5094;
 }
 
 .credit {
-    color: #1f2937;
+    color: #9B5094;
     margin-top: -20px;
     text-align: end;
     font-size: 24px;
@@ -140,7 +140,7 @@ button {
 .sec3 {
     display: block;
     padding: 100px 300px;
-    background-color: #e5e7eb;
+    background-color: #9A94BC;
 }
 
 .sec4 {
@@ -149,12 +149,13 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3882F6;
+    background-color: #8FB8DE;
     border-radius: 8px; 
+    flex-wrap: wrap;
 }
 
 .leftbutton p {
-    color: #e5e7eb;
+    color: #9A94BC;
     margin-top: -10px;
     flex: 1;
 }
@@ -162,11 +163,11 @@ button {
 .rightbutton {
     border: 2px solid white;
     border-radius: 8px;
-    flex: 0;
+    flex-shrink: 0;
 }
 
 footer {
-    background-color: #1f2937;
+    background-color: #9B5094;
     text-align: center;
     padding:50px
 }
