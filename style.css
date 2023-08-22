@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-    padding: 0px 200px;
+    margin: 0px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,6 +30,7 @@ li {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
 }
 
 a {
@@ -41,10 +42,12 @@ a {
     padding: 100px 200px 150px 200px;
     display: flex; 
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .info {
     padding-right: 40px;
+    flex: 1;
 }
 
 .sec1header{
@@ -70,8 +73,9 @@ button {
 
 }
 .img1 {
-    width: 530px;
+    width: 500px;
     height: auto;
+    flex: 0;
 }
 
 .sec2 {
@@ -104,6 +108,7 @@ button {
     max-width: 150px;
     display: flex;
     text-align: center;
+    flex: 1;
 }
 
 .image {
@@ -151,11 +156,13 @@ button {
 .leftbutton p {
     color: #e5e7eb;
     margin-top: -10px;
+    flex: 1;
 }
 
 .rightbutton {
     border: 2px solid white;
     border-radius: 8px;
+    flex: 0;
 }
 
 footer {
